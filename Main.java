@@ -8,7 +8,7 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws Exception {
 
-        var view_main = getClass().getResource("/scene_main/View.fxml");
+        var view_main = getClass().getResource("scene_main/View.fxml");
         var controller_main = new scene_main.Controller();
 
         var loader = new FXMLLoader();
